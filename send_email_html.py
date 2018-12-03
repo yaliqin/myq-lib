@@ -69,6 +69,7 @@ def send_mail(time,user, password, url):
 
 
     print(url)
+    print(mail_user, mail_pass)
     part1 = MIMEText(email_text, 'plain')
     part2 = MIMEText(html, 'html')
 
